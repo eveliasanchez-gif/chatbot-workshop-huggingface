@@ -13,15 +13,15 @@ import nltk
 def get_stopwords():
     nltk.download('stopwords')
 
-st.set_page_config(page_title="Chat with a friend on the works of Rabindranath Tagore", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Chat with a friend on the works of Rabindranath Tagore")
+st.set_page_config(page_title="Ask me a question about appointing a faculty at SJSU", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.title("Ask me a question about appointing a faculty at SJSU")
 
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
         {
             "role": "assistant",
-            "content": "Ask me a question about Rabindranath Tagore!!",
+            "content": "Ask me a question about appointing a faculty at SJSU",
         }
     ]
 
